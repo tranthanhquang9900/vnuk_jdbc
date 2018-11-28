@@ -8,7 +8,7 @@ public class ConnectingFactory {
 	public Connection getConnection() {
 		try {
 			return DriverManager.getConnection(
-					"jbdc:mysql://localhost/vnuk_personal",
+					"jdbc:mysql://localhost/vnuk_personal",
 					"root",
 					"Thanhquang123");
 		}
